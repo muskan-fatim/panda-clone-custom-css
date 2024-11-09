@@ -1,0 +1,96 @@
+/* about.module.css */
+
+.aboutContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6; /* Softer light gray background */
+    padding: 4rem 2rem; /* Balanced padding for responsiveness */
+}
+
+.card {
+    max-width: 56rem; /* Slightly narrower for focus */
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    border-radius: 1rem; /* Softer rounded corners */
+    overflow: hidden;
+    padding: 2rem; /* Spacious padding inside the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02); /* Subtle hover effect */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    font-size: 2.75rem; /* Larger heading */
+    font-weight: bold;
+    text-align: center;
+    color: #ec4899;
+    margin-bottom: 2.5rem;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .contentWrapper {
+        flex-direction: row; /* Row layout on larger screens */
+        align-items: flex-start;
+    }
+}
+
+.imageContainer {
+    width: 100%;
+    margin-bottom: 2rem; /* Increased spacing for separation */
+}
+
+@media (min-width: 1024px) {
+    .imageContainer {
+        width: 50%;
+        padding-right: 2rem;
+        margin-bottom: 0; /* No bottom margin on larger screens */
+    }
+}
+
+.image {
+    border-radius: 1rem; /* Softer rounded corners */
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    width: 100%; /* Ensures responsive width */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.05); /* Subtle scale on hover for interaction */
+}
+
+.textSection {
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .textSection {
+        width: 50%;
+        padding-left: 2rem;
+    }
+}
+
+.paragraph {
+    color: #374151; /* Darker gray for better readability */
+    font-size: 1.125rem;
+    line-height: 1.75; /* Improved readability */
+    margin-bottom: 1.5rem; /* Increased spacing */
+}
+
+.highlight {
+    font-weight: bold;
+    color: #ec4899; /* Pink highlight color */
+}

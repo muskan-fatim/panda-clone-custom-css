@@ -1,0 +1,112 @@
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+  }
+  
+  .section {
+    background-color: #e91e63; /* pink */
+    color: #ffffff;
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+  }
+  
+  .wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 1.125rem;
+    margin-top: 1rem;
+  }
+  
+  .downloadIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .icon {
+    height: 3rem;
+    display: block;
+  }
+  
+  .imageWrapper {
+    position: relative;
+    margin-top: 2.5rem;
+  }
+  
+  .image {
+    transform: rotate(-6deg);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .mainContent {
+    max-width: 1120px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+  }
+  
+  .mainHeading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .relativeImage {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fullWidthImage {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 18rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .overlayHeading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .overlayDescription {
+    color: #666666;
+  }
+  

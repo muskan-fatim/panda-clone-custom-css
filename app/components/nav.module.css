@@ -1,0 +1,68 @@
+/* Navbar container */
+.navbar {
+    background-color: white;
+    height: 96px; /* Matches the 'h-24' class */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    width: 100%;
+    max-width: 1200px; /* Max container width */
+}
+
+/* Logo section */
+.navbarlogo {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Space between logo and text */
+}
+
+.navbarlogoimage {
+    border-radius: 4px;
+}
+
+.navbartitle {
+    font-size: 1.25rem; /* Equivalent to 'text-xl' */
+    color: #ec4899; /* Equivalent to 'text-pink-500' */
+}
+
+/* Button section */
+.navbarbuttons {
+    display: flex;
+    gap: 8px; /* Space between buttons */
+    margin-right: 12px;
+}
+
+.navbarbutton {
+    width: 80px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid black;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.loginbutton {
+    background-color: transparent;
+}
+
+.loginbutton:hover {
+    background-color: #f9fafb; /* Hover equivalent of 'hover:bg-gray-50' */
+    transform: scale(1.05);
+}
+
+.signupbutton {
+    background-color: #ec4899; /* Equivalent to 'bg-pink-500' */
+    color: white;
+    border: none;
+}
+
+.signupbutton:hover {
+    background-color: #db2777; /* Hover equivalent of 'hover:bg-pink-600' */
+    transform: scale(1.05);
+}
