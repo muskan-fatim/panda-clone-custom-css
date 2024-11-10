@@ -30,6 +30,7 @@
 .navbartitle {
     font-size: 1.25rem; /* Equivalent to 'text-xl' */
     color: #ec4899; /* Equivalent to 'text-pink-500' */
+    padding-right:10px;
 }
 
 /* Button section */
