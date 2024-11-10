@@ -25,6 +25,8 @@ export default function BusinessLunch() {
               width={500}
               height={900}
               className={styles.image}
+              layout="responsive"
+
             />
           </div>
         </div>
