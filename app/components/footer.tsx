@@ -4,33 +4,6 @@ import styles from "./footer.module.css"; // Import custom CSS file
 export default function BusinessLunch() {
   return (
     <div className={styles.container}>
-      <section className={styles.section}>
-        <div className={`${styles.wrapper} ${styles.flexBetween}`}>
-          <div className={styles.content}>
-            <h2 className={styles.heading}>Download the food and groceries you love</h2>
-            <p className={styles.description}>
-              It's all at your fingertips – the restaurants and shops you love. Find the right food
-              and groceries to suit your mood, and make the first bite last. Go ahead, download us.
-            </p>
-            <div className={styles.downloadIcons}>
-              <img src="/appstore.PNG" alt="Download on the App Store" className={styles.icon} />
-              <img src="/googleplay.png" alt="Get it on Google Play" className={styles.icon} />
-              <img src="/number1.PNG" alt="Explore it on AppGallery" className={styles.icon} />
-            </div>
-          </div>
-          <div className={styles.imageWrapper}>
-            <Image
-              src="/home-foodpanda-apps.webp"
-              alt="Mobile Mockup"
-              width={500}
-              height={900}
-              className={styles.image}
-              layout="responsive"
-
-            />
-          </div>
-        </div>
-      </section>
       <div className={styles.mainContent}>
         <h1 className={styles.mainHeading}>You prepare the food, we handle the rest</h1>
         <div className={styles.relativeImage}>
